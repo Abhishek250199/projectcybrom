@@ -991,6 +991,9 @@ form {
   .team-container .innerboxes {
     margin-left: 5%;
   }
+  .contact-main form {
+    margin-bottom: 2em;
+  }
 
   .footer .box {
     height: 400px;
