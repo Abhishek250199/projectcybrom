@@ -1313,7 +1313,8 @@ form {
 
   .footer .box {
     width: 100%;
-    margin-left: 0em;
+    margin-left: 1em;
+    padding-left: .8em;
   }
 
   .footer .box h2,
