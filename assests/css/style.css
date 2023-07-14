@@ -974,19 +974,17 @@ form {
     margin-left: -2em;
   }
 
-  .team-container .innerboxes .downbox {
+  .team-container .innerboxes .downbox,
+  .upbox {
     height: 470px;
-    width: 310px;
+    width: 295px;
   }
-
   .team-container .innerboxes .upbox {
-    height: 450px;
-    width: 310px;
+    margin-left: -1.5em;
   }
-
   .team-container .innerboxes .upbox img {
-    height: 450p;
-    width: 310px;
+    height: 470px;
+    width: 295px;
   }
   .team-container .innerboxes {
     margin-left: 5%;
@@ -1300,7 +1298,18 @@ form {
   }
 
   .team-container .innerboxes {
-    margin-left: -4em;
+    margin-left: -2em;
+  }
+  .team-container .innerboxes .downbox,
+  .upbox {
+    height: 470px;
+    width: 270px;
+  }
+  .team-container .innerboxes .upbox {
+    margin-left: -2em;
+  }
+  .team-container .innerboxes .upbox img {
+    width: 270px;
   }
 
   .main-about .socialmeadia .circle {
@@ -1312,8 +1321,9 @@ form {
   }
 
   .footer .box {
-   
-    
+    width: 100%;
+    margin-left: 1em;
+    padding-left: 0.8em;
   }
 
   .footer .box h2,
@@ -1329,22 +1339,6 @@ form {
 @media (max-width: 400px) {
   .team-container {
     margin-left: 12%;
-  }
-
-  .team-container .innerboxes .downbox {
-    height: 430px;
-    width: 280px;
-  }
-
-  .team-container .innerboxes .upbox {
-    height: 430px;
-    width: 280px;
-    border-radius: 20px;
-  }
-
-  .team-container .innerboxes .upbox img {
-    height: 430px;
-    width: 280px;
   }
 
   .team-container .innerboxes .downbox .content {
